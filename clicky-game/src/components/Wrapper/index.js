@@ -1,10 +1,11 @@
 import React from "react";
 
 
-const Container = (props) => 
+const Wrapper = (props) =>{
+    return(
 <div className="wrapper">
 {props.children}
 </div>
-
-
-export default Container;
+    )
+}
+export default Wrapper;
